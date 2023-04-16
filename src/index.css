@@ -14,14 +14,14 @@ code {
 .container{
 display: flex;
 justify-content: center;
-background-color:rgba(255, 105, 105, 0.669);
+background-color:rgba(247, 182, 182, 0.466);
 
 }
 .student{
   width: 80vw;
   padding: 20px;
   border-radius: 10px;
-  background-color: rgba(101, 103, 50, 0.457);
+  background-color: rgba(255, 105, 105, 0.84);
   margin: 10px 0;
   color:  #fff;
   font: 1.2em sans-serif;
