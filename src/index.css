@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container{
+display: flex;
+justify-content: center;
+background-color:rgba(255, 105, 105, 0.669);
+
+}
+.student{
+  width: 80vw;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(101, 103, 50, 0.457);
+  margin: 10px 0;
+  color:  #fff;
+  font: 1.2em sans-serif;
+  box-shadow:2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.scores{
+padding: 10px;
+}

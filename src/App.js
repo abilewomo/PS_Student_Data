@@ -1,4 +1,3 @@
-import './App.css';
 import { useState } from 'react';
 import Students from './components/Students';
 export default function App() {
@@ -66,7 +65,7 @@ export default function App() {
   //Using map() to iterate over each student object, all students' data is passed to the Students component
   const results = studentsData.map((student, index) =>{
    return( 
-    <div key={index}>
+    <div key={index} className='container'>
       <Students student={student} />
     </div>
    )
